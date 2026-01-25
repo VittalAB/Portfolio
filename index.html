@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vittal Badami - Software Engineer | CAE Domain at Bosch | AI/ML Expert">
+    <title>Vittal Badami - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <canvas id="particleCanvas"></canvas>
+    </div>
+    
+    <!-- Glowing Background Orbs -->
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>VB</h2>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Vittal Badami</span></h1>
+                <h2 class="hero-subtitle">Software Engineer | CAE Domain</h2>
+                <p class="hero-description">
+                    Full Stack Developer at Bosch specializing in CAE applications with expertise in AI/ML, 
+                    LLMs, and enterprise solutions. Passionate about building intelligent systems and scalable 
+                    software solutions that solve real-world engineering problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vittal-badami-450812231" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/vittalab" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:vittal.badami@example.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-img-placeholder">
+                        <i class="fas fa-user"></i>
+                        <div class="exp-badge">
+                            <div class="exp-number">3+</div>
+                            <div class="exp-label">Years</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Software Engineer in the CAE domain at Bosch</strong>, working on CAE applications (ITE) 
+                        with a focus on UI-driven prototyping and system integration. I have strong foundations in C, C++, Java, 
+                        and Python, with hands-on experience in <strong>AI/ML, PyTorch/TensorFlow</strong> based model training and 
+                        deployment, <strong>Generative AI, and Large Language Models (LLMs)</strong>.
+                    </p>
+                    <p>
+                        Experienced in building and integrating enterprise applications using <strong>Angular, Django, Flask, 
+                        Spring Boot</strong>, and managing data with MongoDB, SQL, and PostgreSQL. I'm actively exploring 
+                        AI-driven systems and scalable software solutions, with a strong interest in applying machine learning 
+                        to real-world engineering problems.
+                    </p>
+                    <p>
+                        <strong>Education:</strong> Bachelor of Engineering in Computer Science from KLE Technological University, 
+                        Hubballi (2019-2023) with a CGPA of 9.41.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="counter" data-target="3">0</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-target="15">0</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-target="20">0</h3>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-target="6">0</h3>
+                            <p>Awards at Bosch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full Stack Developer | UI/UX Designer</h3>
+                            <span class="company">Bosch</span>
+                        </div>
+                        <p class="duration">
+                            <i class="far fa-calendar"></i> 2.5 Years | Aug 2023 - Present
+                        </p>
+                        <ul class="responsibilities">
+                            <li>Driving development of CAE-based enterprise application <strong>ITE – Simulation Tool</strong> as a full stack developer, significantly accelerating development and cutting down go-to-market time</li>
+                            <li>Led UI/UX design and rapid prototyping using <strong>Figma</strong>, saving two workforce tasks and improving user experience</li>
+                            <li>Contributed to internal Angular library <strong>cae-ngx (npm)</strong>, enhancing reusability and code consistency across modules</li>
+                            <li>Spearheaded <strong>AI/ML chatbot development</strong> for manufacturing database with end-to-end implementation, achieving low latency and high accuracy SQL DB Agent connecting with <strong>Databricks</strong></li>
+                            <li>Implemented various internal tools using <strong>LLMs</strong> for Artifactory management using MCP servers</li>
+                            <li>Built and maintained web applications, owned feature implementation for Digital Conclusion, Gsheet integration, and Footnotes Manager</li>
+                            <li>Actively involved in <strong>CI/CD pipeline</strong> activities on OCP platforms</li>
+                            <li><strong>6x Awardee</strong> for high-impact delivery at Bosch</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">Java Spring Boot</span>
+                            <span class="tag">Angular</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">LLMs</span>
+                            <span class="tag">GenAI</span>
+                            <span class="tag">Databricks</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">CI/CD</span>
+                            <span class="tag">OCP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI/ML Intern - Computer Vision</h3>
+                            <span class="company">DocketRun Tech</span>
+                        </div>
+                        <p class="duration">
+                            <i class="far fa-calendar"></i> 6+ Months | Jan 2023 - Aug 2023
+                        </p>
+                        <ul class="responsibilities">
+                            <li>Worked on <strong>Video Analytical solutions</strong> and implemented Object Detection Model using <strong>YOLOV5 Framework</strong></li>
+                            <li>Developed <strong>ANPR (Automatic Number Plate Recognition System)</strong> achieving over <strong>95% accuracy</strong> for both two and four-wheeler vehicles</li>
+                            <li>Utilized advanced <strong>OCR (Optical Character Recognition)</strong> techniques to extract text from number plates</li>
+                            <li>Gained hands-on experience in real-time video processing and model deployment</li>
+                            <li><strong>Certified AI Engineer</strong> and <strong>Certified DevOps Professional</strong> at DocketRun</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">YOLOV5</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">OCR</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Angular</span>
+                        <span class="skill-item">React.js</span>
+                        <span class="skill-item">Bootstrap</span>
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">UI/UX Design</span>
+                        <span class="skill-item">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">Flask</span>
+                        <span class="skill-item">RESTful APIs</span>
+                        <span class="skill-item">Microservices</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">SQLite</span>
+                        <span class="skill-item">Databricks</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI/ML & Data Science</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">LLMs</span>
+                        <span class="skill-item">Generative AI</span>
+                        <span class="skill-item">LangChain</span>
+                        <span class="skill-item">LangGraph</span>
+                        <span class="skill-item">RAG</span>
+                        <span class="skill-item">Computer Vision</span>
+                        <span class="skill-item">OpenCV</span>
+                        <span class="skill-item">YOLO</span>
+                        <span class="skill-item">Jupyter</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Azure Cloud</span>
+                        <span class="skill-item">CI/CD</span>
+                        <span class="skill-item">OCP</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">Linux (Ubuntu)</span>
+                        <span class="skill-item">Windows</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Chatbot for Manufacturing Database</h3>
+                        <p>
+                            End-to-end chatbot implementation with low latency and high accuracy SQL DB Agent. 
+                            Integrated with Databricks, ingested data into SQLite in-memory DB, and developed 
+                            engaging UI using React. Improved overall user experience significantly.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>LLMs</span>
+                            <span>Databricks</span>
+                            <span>React</span>
+                            <span>SQLite</span>
+                            <span>LangChain</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-building"></i> Bosch Internal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automatic Number Plate Recognition System (ANPR)</h3>
+                        <p>
+                            Implemented object detection model for tracking number plates using YOLOV5 Framework. 
+                            Utilized advanced OCR techniques to extract text with over 95% accuracy for both 
+                            two and four-wheeler vehicles.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>YOLOV5</span>
+                            <span>Computer Vision</span>
+                            <span>OCR</span>
+                            <span>PyTorch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vittalab" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Recommendation System for Groundnut Disease Detection</h3>
+                        <p>
+                            KSCST-funded research project for identifying late leaf spot and rust disease. 
+                            Achieved 99% accuracy in image classification and 95% accuracy in fertilizer 
+                            recommendations. Collaborated with UAS Dharwad to improve agricultural outcomes.
+                        </p>
+                        <div class="project-tech">
+                            <span>PyTorch</span>
+                            <span>TensorFlow</span>
+                            <span>Flask</span>
+                            <span>Python</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vittalab" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>ITE CAE Application - Feature Development</h3>
+                        <p>
+                            Built and maintained enterprise web application for CAE simulations. Owned feature 
+                            implementation for Digital Conclusion, Google Sheets integration, and Footnotes Manager. 
+                            Contributed to Angular library cae-ngx for internal projects.
+                        </p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>Spring Boot</span>
+                            <span>TypeScript</span>
+                            <span>Java</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-building"></i> Bosch Internal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>LLM-based Tools for Artifactory Management</h3>
+                        <p>
+                            Implemented various internal tools using Large Language Models and MCP servers 
+                            for Artifactory management. Streamlined internal workflows and improved 
+                            development efficiency.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>LLMs</span>
+                            <span>MCP Servers</span>
+                            <span>GenAI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-building"></i> Bosch Internal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Linker Loader Implementation</h3>
+                        <p>
+                            Implemented the Linking Loader algorithm in C++ demonstrating how linking and 
+                            loading processes are carried out in operating systems. Combines and resolves 
+                            external references between modules to produce executable programs.
+                        </p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>OS Concepts</span>
+                            <span>System Programming</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vittalab" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, 
+                        or opportunities to be part of your vision.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>vittal.badami@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p><a href="https://www.linkedin.com/in/vittal-badami-450812231" target="_blank" style="color: var(--primary-color); text-decoration: none;">vittal-badami</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/vittalab" target="_blank" style="color: var(--primary-color); text-decoration: none;">vittalab</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vittal Badami. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/vittal-badami-450812231" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/vittalab" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:vittal.badami@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
